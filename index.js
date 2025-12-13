@@ -10,7 +10,7 @@ import { PineconeStore } from '@langchain/pinecone';
 
 async function indexDocument(params) {
 
-    const PDF_PATH = './elonmusk.pdf';
+    const PDF_PATH = 'GIVE_YOUR_PDF_PATH (for example, ./elonmusk.pdf)';
     const pdfLoader = new PDFLoader(PDF_PATH);
     const rawDocs = await pdfLoader.load();
 
